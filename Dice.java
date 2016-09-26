@@ -9,7 +9,8 @@ public class Dice {
 	
 	// roll the die n times and print the values
 	public void rollMultiple(int n) {
-		for (int i=0; i<n; i++) {
+		for (int i=0; i<n; i++) // i has to be zero, in order to count the first roll 
+		{
 			System.out.print(roll() + " ");
 		}		
 	}
